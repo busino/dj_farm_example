@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+
+
+
+{% block content %}
+
+<p><a href={% url 'person:index' %}>Persons</a></p>
+<p><a href={% url 'animal:index' %}>Animals</a></p>
+
+{% endblock %}

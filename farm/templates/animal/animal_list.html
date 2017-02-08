@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<h1>Animals</h1>
+{% if object_list %}
+    {% for obj in object_list %}
+
+    {% endfor %}
+{% else %}
+No Objects!
+{% endif %}
+
+{% endblock %}
+
+
